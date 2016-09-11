@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:textColorPrimary">@color/foreground_material_dark</item>
+        <item name="android:textColorSecondary">@color/foreground_material_dark</item>
+    </style>
+
+    <style name="PurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#a237bf</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="android:colorBackground">@drawable/background</item>
+        <item name="android:colorForeground">#FFFFFF</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/background_floating_material_dark</item>
+    </style>
+
+</resources>
